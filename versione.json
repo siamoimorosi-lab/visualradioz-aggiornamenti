@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "e29ba20",
+  "commit": "5aa03e5",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-e29ba20.tar.gz",
-  "sha256": "b1c33ecf1a10e76697581b5adbacffb53944b8aa9006ba6ef9f88a695991da5c",
-  "date": "2026-11-22T14:50:10.560Z",
-  "note": "Installazione aggiornamenti senza spostare cartelle"
+  "file": "VisualRadioZ-5aa03e5.tar.gz",
+  "sha256": "a341371d2e2857502941a76ac4f9fb815e3c8140a65db296db4af50917d783a7",
+  "date": "2026-11-22T17:54:05.173Z",
+  "note": "Gli aggiornamenti non toccano più i moduli installati"
 }
