@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "d525bfd",
+  "commit": "e29ba20",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-d525bfd.tar.gz",
-  "sha256": "56ece56f371e9a087208743b5331e6c3d1b5a4011f5dd099dc45a6c992fce8da",
-  "date": "2026-11-22T10:04:48.456Z",
-  "note": "Aggiornamenti: riparazione automatica"
+  "file": "VisualRadioZ-e29ba20.tar.gz",
+  "sha256": "b1c33ecf1a10e76697581b5adbacffb53944b8aa9006ba6ef9f88a695991da5c",
+  "date": "2026-11-22T14:50:10.560Z",
+  "note": "Installazione aggiornamenti senza spostare cartelle"
 }
