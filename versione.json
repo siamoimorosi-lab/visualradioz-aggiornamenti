@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "e377e19",
+  "commit": "b6a9209",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-e377e19.tar.gz",
-  "sha256": "c6e2c05a22a2e026b0cbb6a4ad66437a72d9f796a3efebe481be2296c2f214a5",
-  "date": "2026-11-22T08:50:24.536Z",
-  "note": "Correzione per Mac (prova dell'aggiornamento automatico)"
+  "file": "VisualRadioZ-b6a9209.tar.gz",
+  "sha256": "e891b45c270c003b31ded29874b0802e9ec3f0346bb939055fd4dbead9f5210e",
+  "date": "2026-11-22T09:40:37.792Z",
+  "note": "Categorie di riserva, sync dopo errori"
 }
