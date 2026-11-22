@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "c2c8d87",
+  "commit": "e377e19",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-c2c8d87.tar.gz",
-  "sha256": "10204c504f71f65a7800e3022bb253e943ac8639b1b4f47615d719399f0d8a7c",
-  "date": "2026-11-22T08:18:43.087Z",
-  "note": "Brani con audio corto, rotazione rigida, aggiornamenti automatici"
+  "file": "VisualRadioZ-e377e19.tar.gz",
+  "sha256": "c6e2c05a22a2e026b0cbb6a4ad66437a72d9f796a3efebe481be2296c2f214a5",
+  "date": "2026-11-22T08:50:24.536Z",
+  "note": "Correzione per Mac (prova dell'aggiornamento automatico)"
 }
