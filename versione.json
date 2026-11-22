@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "8be60f2",
+  "commit": "69b1e02",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-8be60f2.tar.gz",
-  "sha256": "222a0800dd391a51537a669352905063bf2caf69ff1d60fb003fbe9d8c0785ee",
-  "date": "2026-11-22T20:24:29.945Z",
-  "note": "Correzione automatica dello scarto audio/video, anteprima del gestore senza scheda grafica"
+  "file": "VisualRadioZ-69b1e02.tar.gz",
+  "sha256": "81638d8a54eb8cc005fc749756dd72ad899c9874a2ef7e5558f1248d0cdab165",
+  "date": "2026-11-22T23:19:32.062Z",
+  "note": "Tolto il recupero forzato dell'encoder che svuotava la scorta di immagini"
 }
