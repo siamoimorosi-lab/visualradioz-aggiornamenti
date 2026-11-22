@@ -7,7 +7,7 @@
 // uses; --encoder h264_qsv repeats the test with Quick Sync (it then shares the chip).
 //
 //   "<install>\resources\runtime\node.exe" diagnostica-stazione.mjs --minuti 12
-// Options: --code <program folder> --ffmpeg <ffmpeg.exe> --station <id> --minuti 12 --encoder libx264
+// Options: --code <program folder> --ffmpeg <ffmpeg.exe> --station <id> --minuti 12 --encoder libx264 --anteprima
 import { spawn, spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import os from 'node:os';
@@ -52,7 +52,8 @@ const cfg = JSON.parse(fs.readFileSync(cfgFile, 'utf8'));
 const out = path.join(work, 'uscita.ts');
 cfg.dataDir = 'data';
 cfg.server = { ...cfg.server, port: PORT };
-cfg.output = { ...cfg.output, targets: [out], preview: false, publicUrl: '', videoEncoder: encoder };
+// --anteprima: also the local HLS preview, as on air (a second output).
+cfg.output = { ...cfg.output, targets: [out], preview: process.argv.includes('--anteprima'), publicUrl: '', videoEncoder: encoder };
 fs.writeFileSync(cfgFile, JSON.stringify(cfg, null, 1));
 
 say(`la copia va in onda su file per ${minutes} minuti (encoder ${encoder})…`);
@@ -88,6 +89,21 @@ const v = s.video.end - s.video.first;
 const a = s.audio.end - s.audio.first;
 say(`uscita: video ${v.toFixed(2)} s, audio ${a.toFixed(2)} s, differenza audio-video ${(a - v).toFixed(2)} s`);
 say(`salti nei tempi dell'audio (${s.audio.gaps.length}): ${s.audio.gaps.map((g) => `a ${g.at.toFixed(1)} s ${g.size > 0 ? 'buco' : 'sovrapposizione'} di ${Math.abs(g.size).toFixed(2)} s`).join(' · ') || 'nessuno'}`);
+// Sound against picture every 5 minutes of output: shows when a gap starts to grow.
+{
+  const pk = r.stdout.split(/\r?\n/).map((l) => l.split(',')).filter((x) => x[1] && x[1] !== 'N/A');
+  const v0 = s.video.first;
+  const marks = [];
+  let lastV = 0;
+  let lastA = 0;
+  for (const [type, pts] of pk) {
+    if (type === 'video') lastV = Number(pts);
+    else if (type === 'audio') lastA = Number(pts);
+    const t = lastV - v0;
+    if (lastA && t >= (marks.length + 1) * 300) marks.push(`${Math.round(t / 60)} min: ${((lastA - lastV) * 1000).toFixed(0)} ms`);
+  }
+  say(`audio meno video nell'uscita, ogni 5 minuti: ${marks.join(' · ') || 'prova troppo corta'}`);
+}
 say('registro della copia (cambi brano, correzioni, encoder):');
 for (const l of log.filter((l) => /in onda|riallineato|stato:|encoder|errore|fermo|salt|scheda/i.test(l)).slice(0, 80)) say(`  ${l}`);
 say(`durata reale della prova ${((Date.now() - start) / 1000).toFixed(0)} s`);
