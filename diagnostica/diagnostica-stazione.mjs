@@ -66,6 +66,13 @@ if (burst) {
   cfg.output.readrateBurst = Number(burst);
   say(`readrate_initial_burst: ${burst} s`);
 }
+// --debug-enc: the encoder keeps the sound's own timestamps and lists every sound frame it
+// encodes (data/encoder-audio.txt); holes in that list are the sound lost, with their time.
+const debugEnc = process.argv.includes('--debug-enc');
+if (debugEnc) {
+  cfg.output.encoderDebug = true;
+  say('encoder in modalità diagnostica: elenco dei pezzi di audio codificati');
+}
 // --tagli: clip changes as straight cuts instead of crossfades, to tell whether the crossfade is involved.
 if (process.argv.includes('--tagli')) {
   cfg.types = { ...cfg.types, music: { ...cfg.types?.music, transition: 'cut', duration: 0 } };
@@ -120,6 +127,24 @@ say(`salti nei tempi dell'audio (${s.audio.gaps.length}): ${s.audio.gaps.map((g)
     if (lastA && t >= (marks.length + 1) * 300) marks.push(`${Math.round(t / 60)} min: ${((lastA - lastV) * 1000).toFixed(0)} ms`);
   }
   say(`audio meno video nell'uscita, ogni 5 minuti: ${marks.join(' · ') || 'prova troppo corta'}`);
+}
+if (debugEnc) {
+  // Each line: frame number, time base, pts, samples in the frame, samples so far.
+  const lines = fs.existsSync(path.join(work, 'data', 'encoder-audio.txt'))
+    ? fs.readFileSync(path.join(work, 'data', 'encoder-audio.txt'), 'utf8').trim().split(/\r?\n/) : [];
+  const holes = [];
+  let prevEnd = null;
+  let rate = 48000;
+  for (const l of lines) {
+    const [, tb, pts, samp] = l.split(' ');
+    const den = Number(String(tb).split('/')[1]) || 48000;
+    rate = den;
+    const p = Number(pts);
+    if (prevEnd !== null && Math.abs(p - prevEnd) > den / 1000) holes.push({ at: prevEnd / den, size: (p - prevEnd) / den });
+    prevEnd = p + Number(samp);
+  }
+  say(`audio entrato nell'encoder: ${lines.length} pezzi, fino a ${prevEnd !== null ? (prevEnd / rate / 60).toFixed(1) : '?'} min`);
+  say(`buchi nell'audio prima della codifica (${holes.length}): ${holes.slice(0, 60).map((h) => `${(h.at / 60).toFixed(2)} min ${h.size > 0 ? 'manca' : 'sovrapposto'} ${Math.abs(h.size).toFixed(3)} s`).join(' · ') || 'nessuno'}`);
 }
 say('registro della copia (cambi brano, correzioni, encoder):');
 for (const l of log.filter((l) => /in onda|riallineato|stato:|encoder|errore|fermo|salt|scheda/i.test(l)).slice(0, 80)) say(`  ${l}`);

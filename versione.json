@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "d8b8f32",
+  "commit": "af63b46",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-d8b8f32.tar.gz",
-  "sha256": "9a721c538b03f7ead913d70b7bae49a4e20d2120b2a0c2b781f6e1d78c6c53a4",
-  "date": "2026-11-23T08:39:46.796Z",
-  "note": "Riallineamento preventivo tolto; parametro di prova per la lettura iniziale dell'encoder"
+  "file": "VisualRadioZ-af63b46.tar.gz",
+  "sha256": "cd69ffad39c29e5c7fb19b3812cb46216ae20a5eeb1ee66760102c64e6718344",
+  "date": "2026-11-23T10:25:50.574Z",
+  "note": "Prova diagnostica dell'audio nell'encoder (--debug-enc)"
 }
