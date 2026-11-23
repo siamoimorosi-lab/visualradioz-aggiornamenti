@@ -7,7 +7,7 @@
 // uses; --encoder h264_qsv repeats the test with Quick Sync (it then shares the chip).
 //
 //   "<install>\resources\runtime\node.exe" diagnostica-stazione.mjs --minuti 12
-// Options: --code <program folder> --ffmpeg <ffmpeg.exe> --station <id> --minuti 12 --encoder libx264 --anteprima
+// Options: --code <program folder> --ffmpeg <ffmpeg.exe> --station <id> --minuti 12 --encoder libx264 --anteprima --tagli
 import { spawn, spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import os from 'node:os';
@@ -54,6 +54,11 @@ cfg.dataDir = 'data';
 cfg.server = { ...cfg.server, port: PORT };
 // --anteprima: also the local HLS preview, as on air (a second output).
 cfg.output = { ...cfg.output, targets: [out], preview: process.argv.includes('--anteprima'), publicUrl: '', videoEncoder: encoder };
+// --tagli: clip changes as straight cuts instead of crossfades, to tell whether the crossfade is involved.
+if (process.argv.includes('--tagli')) {
+  cfg.types = { ...cfg.types, music: { ...cfg.types?.music, transition: 'cut', duration: 0 } };
+  say('cambi brano: passaggi secchi (senza dissolvenza)');
+}
 fs.writeFileSync(cfgFile, JSON.stringify(cfg, null, 1));
 
 say(`la copia va in onda su file per ${minutes} minuti (encoder ${encoder})…`);
