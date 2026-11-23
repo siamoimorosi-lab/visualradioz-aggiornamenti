@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "92829fc",
+  "commit": "23c739d",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-92829fc.tar.gz",
-  "sha256": "a3f935d14366040171a909d1525c751b4e6ad04493e7ff2bf00f856ff78b9a8d",
-  "date": "2026-11-23T13:49:35.624Z",
-  "note": "Diagnostica: pezzi inviati all'encoder"
+  "file": "VisualRadioZ-23c739d.tar.gz",
+  "sha256": "87e7bc65736dcbb87985c52dc80c7dab5aa6f49da3483b060e225ec087156c45",
+  "date": "2026-11-23T14:29:25.969Z",
+  "note": "Niente più secondo di audio perso ai cambi brano con lo stinger"
 }
