@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "a4b2fdb",
+  "commit": "0dc5b3b",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-a4b2fdb.tar.gz",
-  "sha256": "0599cc663a2edf0073a6b1eca152416eadc02218cf85d711e03b8b09013fd5c2",
-  "date": "2026-11-23T08:06:12.390Z",
-  "note": "File danneggiati tolti subito dalla rotazione"
+  "file": "VisualRadioZ-0dc5b3b.tar.gz",
+  "sha256": "85b3137830efa3969d43f13ac18d0c486835b812fb4dfc5b999e62397b8095db",
+  "date": "2026-11-23T08:19:08.163Z",
+  "note": "Riallineamento preventivo dell'encoder oltre 8 s di ritardo"
 }
