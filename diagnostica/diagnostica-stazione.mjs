@@ -147,6 +147,6 @@ if (debugEnc) {
   say(`buchi nell'audio prima della codifica (${holes.length}): ${holes.slice(0, 60).map((h) => `${(h.at / 60).toFixed(2)} min ${h.size > 0 ? 'manca' : 'sovrapposto'} ${Math.abs(h.size).toFixed(3)} s`).join(' · ') || 'nessuno'}`);
 }
 say('registro della copia (cambi brano, correzioni, encoder):');
-for (const l of log.filter((l) => /in onda|riallineato|stato:|encoder|errore|fermo|salt|scheda/i.test(l)).slice(0, 80)) say(`  ${l}`);
+for (const l of log.filter((l) => /in onda|riallineato|stato:|encoder|errore|fermo|salt|scheda|pezzo inviato/i.test(l)).slice(0, 120)) say(`  ${l}`);
 say(`durata reale della prova ${((Date.now() - start) / 1000).toFixed(0)} s`);
 say('FINE: copia tutto questo testo e mandalo.');
