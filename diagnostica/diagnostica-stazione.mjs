@@ -7,7 +7,7 @@
 // uses; --encoder h264_qsv repeats the test with Quick Sync (it then shares the chip).
 //
 //   "<install>\resources\runtime\node.exe" diagnostica-stazione.mjs --minuti 12
-// Options: --code <program folder> --ffmpeg <ffmpeg.exe> --station <id> --minuti 12 --encoder libx264 --anteprima --tagli
+// Options: --code <program folder> --ffmpeg <ffmpeg.exe> --station <id> --minuti 12 --encoder libx264 --anteprima --tagli --audio off
 import { spawn, spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import os from 'node:os';
@@ -54,6 +54,12 @@ cfg.dataDir = 'data';
 cfg.server = { ...cfg.server, port: PORT };
 // --anteprima: also the local HLS preview, as on air (a second output).
 cfg.output = { ...cfg.output, targets: [out], preview: process.argv.includes('--anteprima'), publicUrl: '', videoEncoder: encoder };
+// --audio off|light|radio|loud: the encoder's sound processing (compressor, loudness, limiter).
+const audioPreset = arg('audio');
+if (audioPreset) {
+  cfg.audio = { ...cfg.audio, processing: audioPreset };
+  say(`processore audio dell'encoder: ${audioPreset}`);
+}
 // --tagli: clip changes as straight cuts instead of crossfades, to tell whether the crossfade is involved.
 if (process.argv.includes('--tagli')) {
   cfg.types = { ...cfg.types, music: { ...cfg.types?.music, transition: 'cut', duration: 0 } };
