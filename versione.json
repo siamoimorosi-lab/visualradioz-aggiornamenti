@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "32c7abf",
+  "commit": "d8b8f32",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-32c7abf.tar.gz",
-  "sha256": "bf44eaac53961645ab5c6c2e4430c1bd4d784a2327e27c5deee4818796c2bdd7",
-  "date": "2026-11-23T08:38:28.616Z",
-  "note": "Tolto il riallineamento preventivo, che aumentava il ritardo"
+  "file": "VisualRadioZ-d8b8f32.tar.gz",
+  "sha256": "9a721c538b03f7ead913d70b7bae49a4e20d2120b2a0c2b781f6e1d78c6c53a4",
+  "date": "2026-11-23T08:39:46.796Z",
+  "note": "Riallineamento preventivo tolto; parametro di prova per la lettura iniziale dell'encoder"
 }

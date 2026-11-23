@@ -60,6 +60,12 @@ if (audioPreset) {
   cfg.audio = { ...cfg.audio, processing: audioPreset };
   say(`processore audio dell'encoder: ${audioPreset}`);
 }
+// --burst N: ffmpeg's -readrate_initial_burst for the copy's encoder (2 by default).
+const burst = arg('burst');
+if (burst) {
+  cfg.output.readrateBurst = Number(burst);
+  say(`readrate_initial_burst: ${burst} s`);
+}
 // --tagli: clip changes as straight cuts instead of crossfades, to tell whether the crossfade is involved.
 if (process.argv.includes('--tagli')) {
   cfg.types = { ...cfg.types, music: { ...cfg.types?.music, transition: 'cut', duration: 0 } };
