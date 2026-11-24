@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "62312ef",
+  "commit": "dff79e3",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-62312ef.tar.gz",
-  "sha256": "216507e8a172dc2acd1a18e4e10307c707027a6b1b746c23736392c4b419943b",
-  "date": "2026-11-24T07:50:39.735Z",
-  "note": "Cartelle di rete non leggibili per un attimo: i brani restano; scelta di riserva corretta"
+  "file": "VisualRadioZ-dff79e3.tar.gz",
+  "sha256": "7d61d216c38c78d6ec00e0ed42f4e06243c83fe3272c377c2c66896709863c84",
+  "date": "2026-11-24T08:14:18.217Z",
+  "note": "Anteprima ferma fuori da Diretta; Gestore ridotto a icona dopo l'aggiornamento"
 }
