@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "1d9e1fe",
+  "commit": "62312ef",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-1d9e1fe.tar.gz",
-  "sha256": "d74ba501234198254975f272bac0fe5581d6e9c3ea5bed12919bd9950bf98532",
-  "date": "2026-11-24T07:45:40.576Z",
-  "note": "Esclusioni degli orologi: tutte le regole o almeno una; niente due slot uguali di fila dopo uno saltato"
+  "file": "VisualRadioZ-62312ef.tar.gz",
+  "sha256": "216507e8a172dc2acd1a18e4e10307c707027a6b1b746c23736392c4b419943b",
+  "date": "2026-11-24T07:50:39.735Z",
+  "note": "Cartelle di rete non leggibili per un attimo: i brani restano; scelta di riserva corretta"
 }
