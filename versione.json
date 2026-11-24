@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "c0cedbd",
+  "commit": "1d9e1fe",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-c0cedbd.tar.gz",
-  "sha256": "424bf65320ef34379db3e5898ebdbf71f31fb23fe987526876f6f0905714a196",
-  "date": "2026-11-23T20:28:18.931Z",
-  "note": "Programmazione a piccoli passi: non blocca più la diretta"
+  "file": "VisualRadioZ-1d9e1fe.tar.gz",
+  "sha256": "d74ba501234198254975f272bac0fe5581d6e9c3ea5bed12919bd9950bf98532",
+  "date": "2026-11-24T07:45:40.576Z",
+  "note": "Esclusioni degli orologi: tutte le regole o almeno una; niente due slot uguali di fila dopo uno saltato"
 }
