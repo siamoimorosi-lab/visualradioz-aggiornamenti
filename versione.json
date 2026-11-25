@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "ab3f2ab",
+  "commit": "1067dbe",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-ab3f2ab.tar.gz",
-  "sha256": "9676ac6e4a77a8c6a591dec6633b3c12048ef893c3306a297bae681c564c5875",
-  "date": "2026-11-25T05:53:18.368Z",
-  "note": "Logo animato con margine: niente più bordi tagliati"
+  "file": "VisualRadioZ-1067dbe.tar.gz",
+  "sha256": "e691f2b3bb1918bda2c5d16ef332b701e657fed6ede0327bff1af9ed90e30b0e",
+  "date": "2026-11-25T21:52:54.003Z",
+  "note": "Grafica A seguire compatta su due righe, orario e brano in onda più grandi, messaggio della barra modificabile"
 }
