@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "280b3e6",
+  "commit": "ab3f2ab",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-280b3e6.tar.gz",
-  "sha256": "db7f257173514822c0b4c9272f4f7e3dc91d4efb3148b0ad0b2aaf5b53ef3a29",
-  "date": "2026-11-25T05:07:38.015Z",
-  "note": "Controllo remoto con amministratore e utente"
+  "file": "VisualRadioZ-ab3f2ab.tar.gz",
+  "sha256": "9676ac6e4a77a8c6a591dec6633b3c12048ef893c3306a297bae681c564c5875",
+  "date": "2026-11-25T05:53:18.368Z",
+  "note": "Logo animato con margine: niente più bordi tagliati"
 }
