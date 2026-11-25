@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "b2bb20d",
+  "commit": "f1e2120",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-b2bb20d.tar.gz",
-  "sha256": "008ba9c651671916f8630e855ad418e68a7c5dec83fc0733dc2cb995b5fbd0aa",
-  "date": "2026-11-25T22:45:49.020Z",
-  "note": "Televoto completo: grafica approvata, gruppi NATALE/NUOVO/PARTY, pagina con Instagram, app e concorso"
+  "file": "VisualRadioZ-f1e2120.tar.gz",
+  "sha256": "45a37f7b9cf544d2b9880e8e1e5dac4fcebbbb54518dc7f31b5abf2153d9972f",
+  "date": "2026-11-25T23:17:33.399Z",
+  "note": "Televoto: niente più arresto con due schermate, vincitore prima della nuova votazione, indirizzo corto"
 }
