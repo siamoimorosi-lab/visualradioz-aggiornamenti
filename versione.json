@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "b248617",
+  "commit": "a6270df",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-b248617.tar.gz",
-  "sha256": "bbfac5f7d1eb88f9c023b6a2cf9f8fc49cfd614b3489865c68f5431adf008bf5",
-  "date": "2026-11-25T22:08:33.228Z",
-  "note": "Televoto con QR: il pubblico sceglie il prossimo brano"
+  "file": "VisualRadioZ-a6270df.tar.gz",
+  "sha256": "79880b972025c8a66e97909d6b1f8b218eaeedc8181c7c0cd7fc575259ec3911",
+  "date": "2026-11-25T22:10:33.030Z",
+  "note": "Televoto: solo percentuali e conto alla rovescia sullo schermo"
 }
