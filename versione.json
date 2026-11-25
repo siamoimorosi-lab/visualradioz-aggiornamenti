@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "d14d917",
+  "commit": "9d13926",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-d14d917.tar.gz",
-  "sha256": "4f45005d9ea7d9a5d4bce8a1fad4c6e2810c9377ca540202d9758195e629619b",
-  "date": "2026-11-25T23:44:34.495Z",
-  "note": "Brani in votazione fuori dalla rotazione; regola italiani riconosce (Italiano + TOP)"
+  "file": "VisualRadioZ-9d13926.tar.gz",
+  "sha256": "8ffda4491a2aad3354bc8f381fc85d15c2851b884f9c3d8fa45443f7a70bf7c4",
+  "date": "2026-11-25T23:59:36.255Z",
+  "note": "Televoto più chiaro: due colonne, ultimi secondi, vincitore in grande; campo lingua"
 }
