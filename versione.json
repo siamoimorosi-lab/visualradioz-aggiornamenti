@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "dff79e3",
+  "commit": "934e9e6",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-dff79e3.tar.gz",
-  "sha256": "7d61d216c38c78d6ec00e0ed42f4e06243c83fe3272c377c2c66896709863c84",
-  "date": "2026-11-24T08:14:18.217Z",
-  "note": "Anteprima ferma fuori da Diretta; Gestore ridotto a icona dopo l'aggiornamento"
+  "file": "VisualRadioZ-934e9e6.tar.gz",
+  "sha256": "097ee24d7217968f13397f5936f880a9a9ee9b40fce1f31d934a4111128949cd",
+  "date": "2026-11-25T04:58:30.315Z",
+  "note": "Logo animato misurato su tutta la durata: ovale di Radio Ticino intero"
 }
