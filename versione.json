@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "f1e2120",
+  "commit": "d14d917",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-f1e2120.tar.gz",
-  "sha256": "45a37f7b9cf544d2b9880e8e1e5dac4fcebbbb54518dc7f31b5abf2153d9972f",
-  "date": "2026-11-25T23:17:33.399Z",
-  "note": "Televoto: niente più arresto con due schermate, vincitore prima della nuova votazione, indirizzo corto"
+  "file": "VisualRadioZ-d14d917.tar.gz",
+  "sha256": "4f45005d9ea7d9a5d4bce8a1fad4c6e2810c9377ca540202d9758195e629619b",
+  "date": "2026-11-25T23:44:34.495Z",
+  "note": "Brani in votazione fuori dalla rotazione; regola italiani riconosce (Italiano + TOP)"
 }
