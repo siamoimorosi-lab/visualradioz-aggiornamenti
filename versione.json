@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "934e9e6",
+  "commit": "280b3e6",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-934e9e6.tar.gz",
-  "sha256": "097ee24d7217968f13397f5936f880a9a9ee9b40fce1f31d934a4111128949cd",
-  "date": "2026-11-25T04:58:30.315Z",
-  "note": "Logo animato misurato su tutta la durata: ovale di Radio Ticino intero"
+  "file": "VisualRadioZ-280b3e6.tar.gz",
+  "sha256": "db7f257173514822c0b4c9272f4f7e3dc91d4efb3148b0ad0b2aaf5b53ef3a29",
+  "date": "2026-11-25T05:07:38.015Z",
+  "note": "Controllo remoto con amministratore e utente"
 }
