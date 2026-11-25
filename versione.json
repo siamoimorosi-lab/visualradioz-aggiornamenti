@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "a6270df",
+  "commit": "b2bb20d",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-a6270df.tar.gz",
-  "sha256": "79880b972025c8a66e97909d6b1f8b218eaeedc8181c7c0cd7fc575259ec3911",
-  "date": "2026-11-25T22:10:33.030Z",
-  "note": "Televoto: solo percentuali e conto alla rovescia sullo schermo"
+  "file": "VisualRadioZ-b2bb20d.tar.gz",
+  "sha256": "008ba9c651671916f8630e855ad418e68a7c5dec83fc0733dc2cb995b5fbd0aa",
+  "date": "2026-11-25T22:45:49.020Z",
+  "note": "Televoto completo: grafica approvata, gruppi NATALE/NUOVO/PARTY, pagina con Instagram, app e concorso"
 }
