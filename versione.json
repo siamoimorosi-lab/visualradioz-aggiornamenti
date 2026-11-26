@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "756d26d",
+  "commit": "1888168",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-756d26d.tar.gz",
-  "sha256": "1a2fffc8f226acf4b3d7de92284a13300aeb74b103770231edf58d13cd1abe92",
-  "date": "2026-11-26T06:41:49.706Z",
-  "note": "Impostazioni senza blocchi: calcoli della libreria in un thread a parte"
+  "file": "VisualRadioZ-1888168.tar.gz",
+  "sha256": "5da1d22fa8883daeec502f4fd85f2ef847902743fe88df67303111221aa987b4",
+  "date": "2026-11-26T06:43:43.892Z",
+  "note": "Il Gestore non ricarica più il pannello per una risposta lenta"
 }
