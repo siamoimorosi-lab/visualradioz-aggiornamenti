@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "8838d81",
+  "commit": "5cba4cf",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-8838d81.tar.gz",
-  "sha256": "fd7339f50becc0dae71820e670f2040a8e8f1410acd5977f4a3108ef32c5f296",
-  "date": "2026-11-26T06:51:53.065Z",
-  "note": "Il pannello ricaricato resta sulla pagina aperta"
+  "file": "VisualRadioZ-5cba4cf.tar.gz",
+  "sha256": "b3da22d6744d8be5109bb84fb9aef3ffc88aefdc58989c15a3e117c3b1fd8614",
+  "date": "2026-11-26T07:23:12.793Z",
+  "note": "Programma: fino alle 3 di notte è ancora la sera prima; Oggi martedì, Domani mercoledì"
 }
