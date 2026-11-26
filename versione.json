@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "9d13926",
+  "commit": "39bbf50",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-9d13926.tar.gz",
-  "sha256": "8ffda4491a2aad3354bc8f381fc85d15c2851b884f9c3d8fa45443f7a70bf7c4",
-  "date": "2026-11-25T23:59:36.255Z",
-  "note": "Televoto più chiaro: due colonne, ultimi secondi, vincitore in grande; campo lingua"
+  "file": "VisualRadioZ-39bbf50.tar.gz",
+  "sha256": "b90e1fd0745e6bdb239abf1d2279fabfba1afb58c4911e4eeb2c72a61b7976ea",
+  "date": "2026-11-26T00:20:46.973Z",
+  "note": "Televoto leggero: grafica disegnata una volta, l'encoder non rallenta più"
 }
