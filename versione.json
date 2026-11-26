@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "39bbf50",
+  "commit": "756d26d",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-39bbf50.tar.gz",
-  "sha256": "b90e1fd0745e6bdb239abf1d2279fabfba1afb58c4911e4eeb2c72a61b7976ea",
-  "date": "2026-11-26T00:20:46.973Z",
-  "note": "Televoto leggero: grafica disegnata una volta, l'encoder non rallenta più"
+  "file": "VisualRadioZ-756d26d.tar.gz",
+  "sha256": "1a2fffc8f226acf4b3d7de92284a13300aeb74b103770231edf58d13cd1abe92",
+  "date": "2026-11-26T06:41:49.706Z",
+  "note": "Impostazioni senza blocchi: calcoli della libreria in un thread a parte"
 }
