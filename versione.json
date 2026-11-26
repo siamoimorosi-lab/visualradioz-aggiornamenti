@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "1888168",
+  "commit": "8838d81",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-1888168.tar.gz",
-  "sha256": "5da1d22fa8883daeec502f4fd85f2ef847902743fe88df67303111221aa987b4",
-  "date": "2026-11-26T06:43:43.892Z",
-  "note": "Il Gestore non ricarica più il pannello per una risposta lenta"
+  "file": "VisualRadioZ-8838d81.tar.gz",
+  "sha256": "fd7339f50becc0dae71820e670f2040a8e8f1410acd5977f4a3108ef32c5f296",
+  "date": "2026-11-26T06:51:53.065Z",
+  "note": "Il pannello ricaricato resta sulla pagina aperta"
 }
