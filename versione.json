@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "5cba4cf",
+  "commit": "f4844fd",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-5cba4cf.tar.gz",
-  "sha256": "b3da22d6744d8be5109bb84fb9aef3ffc88aefdc58989c15a3e117c3b1fd8614",
-  "date": "2026-11-26T07:23:12.793Z",
-  "note": "Programma: fino alle 3 di notte è ancora la sera prima; Oggi martedì, Domani mercoledì"
+  "file": "VisualRadioZ-f4844fd.tar.gz",
+  "sha256": "fdc5bacf2b339e4d54078dceec902df0cea0ddbcf39d8ceda59890c73bbed909",
+  "date": "2026-11-26T07:39:21.452Z",
+  "note": "Televoto: a parità vince il brano votato prima"
 }
