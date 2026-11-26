@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "749cce2",
+  "commit": "4c5baf3",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-749cce2.tar.gz",
-  "sha256": "c43287fa05d9108d9c00b2c10ec0158736710fd768e0f27b151553582112db85",
-  "date": "2026-11-26T08:34:40.245Z",
-  "note": "Televoto: niente brani già pronti in gara, orario giusto, vincitore rispetta la regola degli italiani"
+  "file": "VisualRadioZ-4c5baf3.tar.gz",
+  "sha256": "64ef8dbb33b4ab1cc224862ae6eae10069827f5498c96c05dac6569682ea3f9f",
+  "date": "2026-11-26T08:57:26.018Z",
+  "note": "Dopo il vincitore anche il brano successivo rispetta la regola degli italiani"
 }
