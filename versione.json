@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "4c5baf3",
+  "commit": "2cdd35b",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-4c5baf3.tar.gz",
-  "sha256": "64ef8dbb33b4ab1cc224862ae6eae10069827f5498c96c05dac6569682ea3f9f",
-  "date": "2026-11-26T08:57:26.018Z",
-  "note": "Dopo il vincitore anche il brano successivo rispetta la regola degli italiani"
+  "file": "VisualRadioZ-2cdd35b.tar.gz",
+  "sha256": "3b2d6af0e1058c03ea118c6aa743d9b5e648913cdb8e6c0f26d0c61bdcb7e65b",
+  "date": "2026-11-26T16:25:06.011Z",
+  "note": "Barre del voto dentro le schede, invito più grande, orari degli eventi 'alle 22'"
 }
