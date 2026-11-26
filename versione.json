@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "2cdd35b",
+  "commit": "6f9dea5",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-2cdd35b.tar.gz",
-  "sha256": "3b2d6af0e1058c03ea118c6aa743d9b5e648913cdb8e6c0f26d0c61bdcb7e65b",
-  "date": "2026-11-26T16:25:06.011Z",
-  "note": "Barre del voto dentro le schede, invito più grande, orari degli eventi 'alle 22'"
+  "file": "VisualRadioZ-6f9dea5.tar.gz",
+  "sha256": "f32c29f5484c3f36b13699aac3097a1da5f25bc5ccf1af40bb4789d77eb0f52f",
+  "date": "2026-11-26T19:55:34.876Z",
+  "note": "Regola italiani salda anche dopo i vincitori; il piano segue la diretta; riserva prima di allentare"
 }
