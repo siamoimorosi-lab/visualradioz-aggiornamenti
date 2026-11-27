@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "6f9dea5",
+  "commit": "0d97417",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-6f9dea5.tar.gz",
-  "sha256": "f32c29f5484c3f36b13699aac3097a1da5f25bc5ccf1af40bb4789d77eb0f52f",
-  "date": "2026-11-26T19:55:34.876Z",
-  "note": "Regola italiani salda anche dopo i vincitori; il piano segue la diretta; riserva prima di allentare"
+  "file": "VisualRadioZ-0d97417.tar.gz",
+  "sha256": "104dcb719a21a3af2c7a8be0010c427d4d38007bc6823958ea9c8bc16ce89944",
+  "date": "2026-11-27T23:55:43.302Z",
+  "note": "Visual a orario con orologio di cartelle (Generali, Christmas)"
 }
