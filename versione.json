@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "a1c4fcc",
+  "commit": "40ad4f5",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-a1c4fcc.tar.gz",
-  "sha256": "98b0e8e14fd9c7a61c929675f7a59046b6fc2a1bebea7c52bea7be79b4a587f0",
-  "date": "2026-11-28T00:07:29.085Z",
-  "note": "Visual in loop per tutto il turno; ora, logo e barra si possono nascondere durante i visual"
+  "file": "VisualRadioZ-40ad4f5.tar.gz",
+  "sha256": "7921d64ab5f47ac0574bc6479826dc3eecdf133ed4fa130d8c10bf30d280ed14",
+  "date": "2026-11-28T03:17:14.656Z",
+  "note": "Visual: loop più sicuro e passaggio pulito alle canzoni a fine fascia"
 }
