@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
-  "commit": "40ad4f5",
+  "commit": "b819061",
   "base": "7817ad408f896698",
-  "file": "VisualRadioZ-40ad4f5.tar.gz",
-  "sha256": "7921d64ab5f47ac0574bc6479826dc3eecdf133ed4fa130d8c10bf30d280ed14",
-  "date": "2026-11-28T03:17:14.656Z",
-  "note": "Visual: loop più sicuro e passaggio pulito alle canzoni a fine fascia"
+  "file": "VisualRadioZ-b819061.tar.gz",
+  "sha256": "956ae8436468672b3db65eeff76b174d58401757b946059b2575d31b0f6d8d4e",
+  "date": "2026-11-28T11:47:45.790Z",
+  "note": "Visual sopra la musica: le canzoni continuano sotto, niente titoli né televoto durante i visual"
 }
